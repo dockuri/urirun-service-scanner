@@ -9,7 +9,7 @@ description = "Standalone urirun phone document scanner service on port 8196"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "Apache-2.0"
-authors = [{ name = "if-uri" }]
+authors = [{ name = "dockuri" }]
 dependencies = ["urirun[host]>=0.4.88"]
 
 [project.optional-dependencies]
@@ -17,7 +17,7 @@ test = ["pytest>=8"]
 
 [project.urls]
 Homepage = "https://connect.ifuri.com/services/scanner"
-Repository = "https://github.com/if-uri/urirun-service-scanner"
+Repository = "https://github.com/dockuri/urirun-service-scanner"
 
 [project.scripts]
 urirun-service-scanner = "urirun_service_scanner.core:main"
