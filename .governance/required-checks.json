@@ -1,5 +1,5 @@
 {
-  "repository": "if-uri/urirun-service-scanner",
+  "repository": "dockuri/urirun-service-scanner",
   "requiredChecks": [
     {
       "name": "governance / remote lifecycle",
